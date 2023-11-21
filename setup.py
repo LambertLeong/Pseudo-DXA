@@ -1,9 +1,9 @@
 from setuptools import setup, find_packages
-
+print('READ README')
 setup(
-    name='Pseudo-DXA',  # Replace with your actual package name if different
-    version='1.0',  # Update the version as necessary
-    description='A package for generating pseudo-DXA images using machine learning techniques.',  # Update with your package's description
+    name='Pseudo-DXA',  
+    version='1.0', 
+    description='A model for generating pseudo-DXA images from 3D meshes using deep learning .',  
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
     url='https://github.com/LambertLeong/Pseudo-DXA',
@@ -20,10 +20,9 @@ setup(
         'matplotlib',    # Common for plotting in scientific computing
         'scipy',         # For scientific computing tasks
         'plyfile',       # For PLY file handling
-        # Include other necessary packages specific to your project
     ],
     classifiers=[
-        'Development Status :: 3 - Alpha',  # Update as per your project's maturity
+        'Development Status :: 3 - Alpha',  
         'Intended Audience :: Science/Research',
         'Intended Audience :: Developers',
         'Topic :: Scientific/Engineering :: Medical Science Apps.',
@@ -33,8 +32,7 @@ setup(
         'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: 3.9',
         'Operating System :: OS Independent',
-        # Add other classifiers as needed
     ],
-    python_requires='>=3.6',  # Ensure compatibility with your minimum required Python version
+    python_requires='>=3.6',  
 )
 
