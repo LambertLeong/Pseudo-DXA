@@ -42,7 +42,9 @@ Code for transforming NPY files into proprietary DXA files for analysis cannot b
 ![Body Comp Analysis](assets/supfig3_psdxa.png)
 
 ## Acknowledgments
-The base model was trained using self-supervised learning on over 20K DXA scans from the [Bone Mineral Density in Childhood Study](https://www.nichd.nih.gov/research/supported/bmdcs) and [The Health, Aging and Body Composition Study](https://healthabc.nia.nih.gov/). Training of the final model was on patients from the [Shape Up! Studies](https://shapeup.shepherdresearchlab.org/) who received pairs of DXAs and 3D scans on the same day. The training schema is shown below.
+The base model was trained using self-supervised learning on over 20K DXA scans from the [Bone Mineral Density in Childhood Study](https://www.nichd.nih.gov/research/supported/bmdcs) and [The Health, Aging and Body Composition Study](https://healthabc.nia.nih.gov/). Code for the self-supervised model is [here: DXA-VAE](https://github.com/LambertLeong/DXA-VAE) and a video of it training is [here!](https://youtu.be/hXSL7NVCeAY).
+
+Training of the final model was on patients from the [Shape Up! Studies](https://shapeup.shepherdresearchlab.org/) who received pairs of DXAs and 3D scans on the same day. The training schema is shown below.
 
 ![Training Diagram](assets/supfig2_psdxa.png)
 
