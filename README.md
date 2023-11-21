@@ -22,10 +22,10 @@ All 3D Scan Meshes must be fitted and standardized to a T-pose with 110K points 
 
 ## Usage
 Update the config file:
-* GPU device id. Variable = [setup][gpu]
-* Path to model weights. Variable = [model][lleong_psdxa_weights]
-* Path to ply file or 3D mesh. Variable = [predict][mesh_path]
-* Path to output dir. Variable = [predict][out_path]
+* GPU device id. [Variable = [setup][gpu]](https://github.com/LambertLeong/Pseudo-DXA/blob/cb2de537f7c82616cf77547efa401496f8c6013b/example.config#L2)
+* Path to model weights. [Variable = [model][lleong_psdxa_weights]](https://github.com/LambertLeong/Pseudo-DXA/blob/cb2de537f7c82616cf77547efa401496f8c6013b/example.config#L8)
+* Path to ply file or 3D mesh. [Variable = [predict][mesh_path]](https://github.com/LambertLeong/Pseudo-DXA/blob/cb2de537f7c82616cf77547efa401496f8c6013b/example.config#L11)
+* Path to output dir. [Variable = [predict][out_path]](https://github.com/LambertLeong/Pseudo-DXA/blob/cb2de537f7c82616cf77547efa401496f8c6013b/example.config#L12)
 
 ### Trained Weights and Fitted Mesh Test File.
 Weights for a version of a working Pseudo-DXA model and a fitted mesh for testing will be made available upon request to the [SRL Website](https://shepherdresearchlab.org/data-software/)  
