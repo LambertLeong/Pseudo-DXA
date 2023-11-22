@@ -4,6 +4,8 @@ Pseudo-DXA is a generative deep learning model which produces qualitatively and 
 
 This model was developed by [Lambert T Leong](https://github.com/LambertLeong),[PhD](https://www.lambertleong.com/) advised by [John A Shepherd](https://github.com/shepherd-lab) as a part of the [Shepherd Research Lab (SRL)](https://shepherdresearchlab.org/) and the [University of Hawaii Cancer Center](https://www.uhcancercenter.org/component/finder/search?q=lambert+leong&Itemid=926)
 
+[![DOI](https://zenodo.org/badge/721837794.svg)](https://zenodo.org/doi/10.5281/zenodo.10183202)
+
 ![Model Results](assets/figure_1_psdxa.png)
 
 ## Setup
